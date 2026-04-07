@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Muhammad Hamza - Senior SEO Executive & Analyst | 8+ Years Driving Organic Growth | Expert in On-Page, Off-Page, Technical & Local SEO">
+    <title>Muhammad Hamza | SEO Expert & Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&display=swap');
+        :root {
+            --primary: #00d4ff;
+        }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+        .heading-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
+        }
+        .section-header {
+            position: relative;
+        }
+        .section-header:after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background: #00d4ff;
+            bottom: -8px;
+            left: 0;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200">
+
+    <!-- NAVBAR -->
+    <nav class="bg-slate-900 border-b border-slate-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-cyan-400 rounded-2xl flex items-center justify-center text-slate-900 font-bold text-2xl">MH</div>
+                <h1 class="heading-font text-2xl font-semibold">Muhammad Hamza</h1>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#about" class="hover:text-cyan-400 transition-colors">About</a>
+                <a href="#experience" class="hover:text-cyan-400 transition-colors">Experience</a>
+                <a href="#projects" class="hover:text-cyan-400 transition-colors">Projects</a>
+                <a href="#skills" class="hover:text-cyan-400 transition-colors">Skills</a>
+                <a href="#certifications" class="hover:text-cyan-400 transition-colors">Certifications</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" 
+                   class="px-5 py-2.5 bg-white text-slate-900 font-semibold rounded-3xl flex items-center gap-2 hover:bg-cyan-400 hover:text-slate-900 transition-all text-sm">
+                    <i class="fab fa-linkedin"></i>
+                    LinkedIn
+                </a>
+                <a href="mailto:useriphonehamza@gmail.com" 
+                   class="px-6 py-2.5 border border-cyan-400 text-cyan-400 font-semibold rounded-3xl hover:bg-cyan-400 hover:text-slate-900 transition-all text-sm">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-bg py-24">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-flex items-center gap-2 bg-slate-800 text-cyan-400 text-sm font-medium px-4 py-2 rounded-3xl mb-6">
+                    <span class="relative flex h-3 w-3">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-cyan-400"></span>
+                    </span>
+                    AVAILABLE FOR FREELANCE / FULL-TIME ROLES
+                </div>
+                
+                <h1 class="text-6xl md:text-7xl font-bold heading-font leading-none mb-4">
+                    Muhammad Hamza
+                </h1>
+                <h2 class="text-4xl md:text-5xl font-semibold text-cyan-400 mb-6">
+                    Senior SEO Expert &amp; Analyst
+                </h2>
+                <p class="text-xl text-slate-400 max-w-lg mb-8">
+                    8+ years optimizing websites for organic growth. Proven expertise in technical SEO, link building, keyword strategy, and local SEO. Currently driving results as <strong>Senior SEO Executive at Tech BPO</strong>.
+                </p>
+                
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" 
+                       class="px-8 py-4 bg-cyan-400 text-slate-900 font-semibold rounded-3xl text-lg flex items-center gap-3 hover:scale-105 transition-transform">
+                        <i class="fas fa-paper-plane"></i>
+                        Hire Me for Your Next SEO Campaign
+                    </a>
+                    <a href="https://drive.google.com/file/d/YOUR_RESUME_LINK/view" target="_blank"
+                       class="px-8 py-4 border-2 border-white font-semibold rounded-3xl text-lg flex items-center gap-3 hover:bg-white hover:text-slate-900 transition-all">
+                        <i class="fas fa-download"></i>
+                        Download Latest CV (PDF)
+                    </a>
+                </div>
+
+                <div class="mt-12 flex items-center gap-8 text-sm">
+                    <div>
+                        <div class="text-cyan-400 text-4xl font-bold">8+</div>
+                        <div class="text-slate-400">Years Experience</div>
+                    </div>
+                    <div>
+                        <div class="text-cyan-400 text-4xl font-bold">50+</div>
+                        <div class="text-slate-400">Client Projects</div>
+                    </div>
+                    <div>
+                        <div class="text-cyan-400 text-4xl font-bold">100+</div>
+                        <div class="text-slate-400">Guest Posts &amp; Backlinks</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Profile visual -->
+            <div class="relative hidden md:block">
+                <div class="bg-gradient-to-br from-cyan-400 to-blue-500 rounded-3xl p-2 shadow-2xl">
+                    <div class="bg-slate-900 rounded-3xl overflow-hidden">
+                        <div class="aspect-square bg-slate-800 flex items-center justify-center text-8xl text-cyan-400">
+                            <!-- Replace with your actual photo URL -->
+                            <img src="YOUR_PROFILE_PHOTO_URL_HERE" alt="Muhammad Hamza" class="w-full h-full object-cover rounded-3xl">
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-slate-900 border border-cyan-400 rounded-2xl px-6 py-4 shadow-xl">
+                    <div class="flex items-center gap-3">
+                        <div class="text-emerald-400"><i class="fas fa-chart-line text-3xl"></i></div>
+                        <div>
+                            <div class="font-semibold">Current Role</div>
+                            <div class="text-cyan-400">Senior SEO Executive @ Tech BPO</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="grid md:grid-cols-12 gap-12">
+            <div class="md:col-span-5">
+                <h2 class="section-header text-5xl heading-font font-semibold mb-6">About Me</h2>
+                <p class="text-lg text-slate-400 leading-relaxed">
+                    Passionate SEO professional with 8+ years of hands-on experience in affiliate marketing, digital marketing, and search engine optimization. 
+                    I specialize in turning websites into high-performing organic traffic machines through data-driven strategies, technical excellence, and creative link-building.
+                </p>
+                <p class="mt-6 text-lg text-slate-400 leading-relaxed">
+                    Currently leading SEO initiatives at Tech BPO while also serving as Senior Coach at DigiSkills Pakistan (Government project). 
+                    Strong background in WordPress development, on-page/off-page SEO, local SEO (GMB), and performance tracking with Google Analytics, Search Console, and SEMrush.
+                </p>
+                <div class="mt-8 flex gap-6">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-map-marker-alt text-cyan-400"></i>
+                        <span>Lahore, Pakistan</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-globe text-cyan-400"></i>
+                        <span>Open to remote &amp; freelance opportunities worldwide</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="md:col-span-7 grid grid-cols-2 gap-6">
+                <div class="bg-slate-900 p-8 rounded-3xl">
+                    <h4 class="font-semibold text-cyan-400 mb-4">Core Expertise</h4>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3"><i class="fas fa-check-circle mt-1 text-emerald-400"></i> Keyword Research &amp; Competitor Analysis</li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle mt-1 text-emerald-400"></i> On-Page &amp; Technical SEO</li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle mt-1 text-emerald-400"></i> Off-Page SEO &amp; Link Building</li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle mt-1 text-emerald-400"></i> Local SEO &amp; GMB Optimization</li>
+                        <li class="flex gap-3"><i class="fas fa-check-circle mt-1 text-emerald-400"></i> Analytics Reporting &amp; ROI Tracking</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-3xl">
+                    <h4 class="font-semibold text-cyan-400 mb-4">My Approach</h4>
+                    <p class="text-slate-400">I combine technical precision with creative strategy. Every campaign starts with deep keyword research and ends with measurable growth in rankings, traffic, and conversions.</p>
+                    <div class="mt-8 text-xs uppercase tracking-widest border-l-2 border-cyan-400 pl-4">
+                        “SEO is not just about rankings — it’s about building sustainable digital assets that deliver long-term business value.”
+                    </div>
+                    <div class="text-right mt-2 text-slate-500 text-sm">- Muhammad Hamza</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="bg-slate-900 py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="section-header text-5xl heading-font font-semibold mb-12">Professional Experience</h2>
+            
+            <div class="space-y-16">
+                <!-- Latest Role -->
+                <div class="grid md:grid-cols-12 gap-8">
+                    <div class="md:col-span-3">
+                        <div class="text-cyan-400 font-medium">Aug 2025 – Present</div>
+                        <div class="text-slate-400">Tech BPO Pvt Ltd, Lahore</div>
+                    </div>
+                    <div class="md:col-span-9">
+                        <h3 class="text-2xl font-semibold mb-2">Senior SEO Executive</h3>
+                        <p class="text-slate-400">Develop and execute comprehensive SEO strategies for global clients. Full ownership of keyword research, on-page/off-page optimization, technical audits, analytics reporting, and local SEO campaigns.</p>
+                        <ul class="mt-6 grid md:grid-cols-2 gap-2 text-sm">
+                            <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> Keyword research &amp; competitor analysis</li>
+                            <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> Meta optimization &amp; content strategy</li>
+                            <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> Link-building &amp; guest posting</li>
+                            <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> Google Analytics, Search Console &amp; SEMrush reporting</li>
+                            <li class="flex items-start gap-2"><span class="text-cyan-400">•</span> Technical SEO audits &amp; GMB optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- NODLAYS -->
+                <div class="grid md:grid-cols-12 gap-8">
+                    <div class="md:col-span-3">
+                        <div class="text-cyan-400 font-medium">Oct 2024 – Aug 2025</div>
+                        <div class="text-slate-400">NODLAYS, Lahore</div>
+                    </div>
+                    <div class="md:col-span-9">
+                        <h3 class="text-2xl font-semibold mb-2">SEO Specialist</h3>
+                        <p class="text-slate-400">Led SEO campaigns for international tech clients. Executed full-funnel SEO strategies resulting in improved visibility and organic growth.</p>
+                    </div>
+                </div>
+
+                <!-- DigiSkills Coach -->
+                <div class="grid md:grid-cols-12 gap-8">
+                    <div class="md:col-span-3">
+                        <div class="text-cyan-400 font-medium">Apr 2022 – Oct 2024</div>
+                        <div class="text-slate-400">DigiSkills Pakistan (Govt. Project)</div>
+                    </div>
+                    <div class="md:col-span-9">
+                        <h3 class="text-2xl font-semibold mb-2">Senior Coach – Affiliate &amp; Digital Marketing</h3>
+                        <p class="text-slate-400">Trained hundreds of students in SEO, Affiliate Marketing, and Digital Marketing. Managed multiple teams and delivered government-funded training programs.</p>
+                    </div>
+                </div>
+
+                <!-- Freelancer -->
+                <div class="grid md:grid-cols-12 gap-8">
+                    <div class="md:col-span-3">
+                        <div class="text-cyan-400 font-medium">Jan 2022 – Present</div>
+                        <div class="text-slate-400">Fiverr / Upwork</div>
+                    </div>
+                    <div class="md:col-span-9">
+                        <h3 class="text-2xl font-semibold mb-2">Freelance SEO Expert</h3>
+                        <p class="text-slate-400">Delivered 50+ successful SEO gigs including manual blogger outreach, guest posting, link building, and full website SEO audits. Consistently 5-star rated.</p>
+                        <div class="mt-4 bg-slate-800 rounded-2xl p-4 text-sm flex items-center gap-3">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <span>Proven track record: 100+ high-quality backlinks delivered for clients in travel, tech, home, and fashion niches</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS / CASE STUDIES -->
+    <section id="projects" class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="section-header text-5xl heading-font font-semibold mb-12">Featured Projects &amp; Case Studies</h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- FishingBoundary -->
+            <div class="bg-slate-900 rounded-3xl overflow-hidden">
+                <div class="h-56 bg-slate-800 flex items-center justify-center text-6xl">
+                    🌊 <!-- Replace with actual screenshot if available -->
+                </div>
+                <div class="p-8">
+                    <div class="text-cyan-400 text-sm font-medium mb-2">May 2021 – Sep 2022</div>
+                    <h3 class="text-2xl font-semibold mb-3">FishingBoundary.com</h3>
+                    <p class="text-slate-400 mb-6">Complete SEO overhaul for a public service blog &amp; e-commerce website. Conducted in-depth keyword research, on-page optimization, link building, and technical audits using Ahrefs, SEMrush, Moz, and Google tools.</p>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <span class="bg-slate-800 px-4 py-2 rounded-3xl">Ahrefs</span>
+                        <span class="bg-slate-800 px-4 py-2 rounded-3xl">SEMrush</span>
+                        <span class="bg-slate-800 px-4 py-2 rounded-3xl">On-Page SEO</span>
+                        <span class="bg-slate-800 px-4 py-2 rounded-3xl">Link Building</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fiverr Guest Posting -->
+            <div class="bg-slate-900 rounded-3xl overflow-hidden">
+                <div class="h-56 bg-slate-800 flex items-center justify-center text-6xl">
+                    🔗
+                </div>
+                <div class="p-8">
+                    <div class="text-cyan-400 text-sm font-medium mb-2">Ongoing – 2022 to Present</div>
+                    <h3 class="text-2xl font-semibold mb-3">Fiverr SEO Services</h3>
+                    <p class="text-slate-400 mb-6">Manual blogger outreach and guest posting for clients across multiple niches. Delivered high-DA backlinks and improved domain authority for numerous websites.</p>
+                    <div class="text-emerald-400 font-medium flex items-center gap-2">
+                        <i class="fas fa-check"></i> 5-Star Rated • Multiple repeat clients
+                    </div>
+                </div>
+            </div>
+
+            <!-- Example Client Sites -->
+            <div class="bg-slate-900 rounded-3xl overflow-hidden">
+                <div class="h-56 bg-slate-800 flex items-center justify-center text-6xl">
+                    📱
+                </div>
+                <div class="p-8">
+                    <div class="text-cyan-400 text-sm font-medium mb-2">Recent Work</div>
+                    <h3 class="text-2xl font-semibold mb-3">Local Service Businesses</h3>
+                    <p class="text-slate-400 mb-6">SEO for repair services (doctormobile.ca style) and solar/energy companies (nedes.us style) — local SEO, GMB optimization, citation building, and conversion-focused on-page work.</p>
+                    <a href="#" class="text-cyan-400 text-sm flex items-center gap-2 hover:underline">
+                        View similar client results <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="bg-slate-900 py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="section-header text-5xl heading-font font-semibold mb-12">Skills &amp; Tools</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Affiliate Marketing</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">WordPress</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">On-Page &amp; Off-Page SEO</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Technical SEO Audits</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Link Building / Guest Posting</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Google Analytics &amp; Search Console</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">SEMrush &amp; Ahrefs</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Local SEO &amp; GMB</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Email &amp; Social Media Marketing</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Content Strategy</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Laravel / PHP Development</div>
+                <div class="bg-slate-800 rounded-3xl p-8 text-center hover:scale-105 transition-transform">Communication &amp; Training</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="section-header text-5xl heading-font font-semibold mb-12">Certifications</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="border border-slate-700 rounded-3xl p-8">
+                <div class="text-cyan-400 mb-4">Google Ads Creative Certification</div>
+                <div class="font-medium">Issued Sep 2025 • Valid until Sep 2026</div>
+            </div>
+            <div class="border border-slate-700 rounded-3xl p-8">
+                <div class="text-cyan-400 mb-4">Google Analytics Certification</div>
+                <div class="font-medium">Issued Sep 2025 • Valid until Sep 2026</div>
+            </div>
+            <div class="border border-slate-700 rounded-3xl p-8">
+                <div class="text-cyan-400 mb-4">SEO &amp; Blogging Training – Tanveer Nandla</div>
+                <div class="font-medium">Iskills Training Program • 2021</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <section id="contact" class="bg-slate-950 py-20 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-5xl heading-font font-semibold mb-6">Ready to boost your organic growth?</h2>
+            <p class="text-xl text-slate-400 max-w-md mx-auto mb-10">Let’s discuss how I can help your business rank higher and drive more qualified traffic.</p>
+            
+            <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+                <a href="mailto:useriphonehamza@gmail.com" class="flex items-center gap-3 text-lg font-medium border border-cyan-400 px-10 py-6 rounded-3xl hover:bg-cyan-400 hover:text-slate-900 transition-all">
+                    <i class="fas fa-envelope"></i>
+                    useriphonehamza@gmail.com
+                </a>
+                <a href="tel:+923331401166" class="flex items-center gap-3 text-lg font-medium border border-cyan-400 px-10 py-6 rounded-3xl hover:bg-cyan-400 hover:text-slate-900 transition-all">
+                    <i class="fas fa-phone"></i>
+                    +92 333 1401166
+                </a>
+            </div>
+
+            <p class="text-slate-500 mt-16 text-sm">Lahore, Pakistan • Open to remote opportunities worldwide</p>
+            <p class="text-slate-500 text-xs mt-8">© 2026 Muhammad Hamza • SEO Expert Portfolio</p>
+        </div>
+    </section>
+
+    <script>
+        // Simple Tailwind script already included via CDN
+        console.log('%c✅ Muhammad Hamza SEO Portfolio ready!', 'color:#00d4ff; font-size:16px; font-weight:bold');
+    </script>
+</body>
+</html>
